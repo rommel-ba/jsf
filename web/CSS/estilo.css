@@ -1,0 +1,17 @@
+.cabecalho{
+    font-size: 190%;
+    color: blue;
+}
+.corpo{
+    font-size: 150%;
+    color: darkgreen;
+}
+
+.nome{
+    font-family: cursive;
+}
+
+.botao{
+    size: 20px;
+    color: aqua;
+}

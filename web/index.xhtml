@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Web Server LTP2</title>
+        <link rel="stylesheet" href="CSS/estilo.css"/>
+        
+    </h:head>
+    <h:body>
+        <div class="cabecalho">
+            Hello from Facelets
+        </div>
+        <div class="corpo">
+            <h:outputText class="nome" value="Nome"/>
+            <h:form class="formulario"> 
+                <h:inputText id="txtNome" value="#{Cliente.nome}"/>
+                <h:commandButton class="botao" value="Confirmar" action="}"></h:commandButton>
+            </h:form>
+            <h:outputText class="cabecalho" value="#{Cliente.nome}" rendered="#{Cliente.nome != null}"/>
+        </div>
+        <h1>Teste github</h1>
+        
+    </h:body>
+</html>
+
